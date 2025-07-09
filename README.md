@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! This site showcases my web design and development projects, skills, and contact information. Built with a modern, responsive design and interactive features, it serves as both a resume and a demonstration of my work.
 
 ## 🚀 Live Demo
-[View the live site](https://beshoy-rezk-tech.github.io/beshoy-rezk-web-designer/)
+[View the live site](https://beshoy-rezk-tech.github.io/beshoy-portfolio/)
 
 ## ✨ Features
 - Modern, bold, and responsive design
@@ -22,13 +22,6 @@ Welcome to my personal portfolio website! This site showcases my web design and 
 - `projects.js` — Dynamic project card rendering
 - `script.js` — Interactivity and UI logic
 
-## 🛠️ Getting Started
-1. **Clone this repository:**
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-2. **Open `index.html` in your browser.**
-   - No build tools or dependencies required.
 
 ## 📄 License
 This project is licensed under the [MIT License](LICENSE.md).
