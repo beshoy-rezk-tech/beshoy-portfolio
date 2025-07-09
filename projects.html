@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Projects | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <span class="logo">Beshoy Rezk</span>
+      <ul class="nav-links">
+        <li><a href="index.html#hero">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <button id="mode-toggle" class="mode-toggle" aria-label="Toggle dark/light mode">
+        <span class="icon-moon">&#9789;</span>
+        <span class="icon-sun">&#9728;</span>
+      </button>
+      <div id="analog-clock"><canvas width="60" height="60"></canvas></div>
+    </div>
+  </nav>
+  <div id="analog-clock-tooltip" style="display:none;"><canvas width="120" height="120"></canvas></div>
+
+  <main>
+    <section id="projects" class="projects-section">
+      <h2 class="projects-heading">All Projects</h2>
+      <div id="projects-list"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Beshoy Rezk. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="projects.js"></script>
+</body>
+</html>

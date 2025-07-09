@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beshoy Rezk | Web designer  Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <span class="logo">Beshoy Rezk</span>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="mode-toggle" class="mode-toggle" aria-label="Toggle dark/light mode">
+        <span class="icon-moon">&#9789;</span>
+        <span class="icon-sun">&#9728;</span>
+      </button>
+      <div id="analog-clock"><canvas width="60" height="60"></canvas></div>
+    </div>
+  </nav>
+  <div id="analog-clock-tooltip" style="display:none;"><canvas width="120" height="120"></canvas></div>
+  <section id="hero" class="hero">
+    <div class="container hero-content">
+      <div class="hero-photo">
+        <img src="profile.jpg" alt="Beshoy Rezk photo" />
+      </div>
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="accent">Beshoy Rezk</span></h1>
+        <p>I am a web designer.</p>
+        <a href="projects.html" class="btn">View My Work</a>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a web developer passionate about building modern, responsive websites and web apps. I love creating beautiful user experiences.</p>
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div id="projects-list">
+        <div class="project-card">
+          <h3>Age Calculator</h3>
+          <p>A fun interactive age calculator web app.</p>
+          <div class="project-buttons">
+            <a href="https://beshoy-rezk-tech.github.io/Age-Calculator/" class="btn project-btn" target="_blank">View Live Demo</a>
+            <a href="https://github.com/Beshoy-Rezk-Tech/Age-Calculator" class="btn project-btn-outline" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Rock Paper scissors</h3>
+          <p>A classic rock-paper-scissors game.</p>
+          <div class="project-buttons">
+            <a href="https://beshoy-rezk-tech.github.io/rock-paper-scissors/" class="btn project-btn" target="_blank">View Live Demo</a>
+            <a href="https://github.com/beshoy-rezk-tech/rock-paper-scissors" class="btn project-btn-outline" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Calculator</h3>
+          <p>A modern, responsive web-based calculator with glassmorphism design.</p>
+          <div class="project-buttons">
+            <a href="https://beshoy-rezk-tech.github.io/calculator/" class="btn project-btn" target="_blank">View Live Demo</a>
+            <a href="https://github.com/beshoy-rezk-tech/calculator" class="btn project-btn-outline" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="more-projects-wrapper">
+        <a href="projects.html" class="btn more-projects-btn">More Projects</a>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact-card">
+        <h2>Contact</h2>
+        <p class="contact-subtitle">Let’s work together! Fill out the form or reach out via social links below.</p>
+        <form id="contact-form" autocomplete="off">
+          <div class="input-group">
+            <span class="input-icon">&#128100;</span>
+            <input type="text" placeholder="Your Name" aria-label="Your Name" required>
+          </div>
+          <div class="input-group">
+            <span class="input-icon">&#9993;</span>
+            <input type="email" placeholder="Your Email" aria-label="Your Email" required>
+          </div>
+          <div class="input-group">
+            <span class="input-icon">&#9998;</span>
+            <textarea placeholder="Your Message" aria-label="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn contact-btn">Send Message</button>
+          <div id="contact-success" class="contact-success" style="display:none;">Thank you! Your message has been sent.</div>
+        </form>
+        <div class="contact-social">
+          <a href="mailto:beshoyrezkprograming@gmail.com" class="contact-social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://github.com/beshoy-rezk-tech" class="contact-social-icon" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/besho__rezk/?igsh=ZTV5N2NhMnQxbjE1#" class="contact-social-icon" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Beshoy Rezk. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html> 
